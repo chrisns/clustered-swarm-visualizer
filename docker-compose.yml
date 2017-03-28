@@ -1,6 +1,6 @@
 version: "3"
 services:
-  http_api:
+  visualizer:
     image: manomarks/visualizer:latest
     networks:
       - proxy
