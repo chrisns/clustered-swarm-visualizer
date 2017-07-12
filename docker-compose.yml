@@ -18,6 +18,7 @@ services:
         - com.df.serviceDomain=swarm.p.cns.me
         - com.df.servicePath=/
         - com.df.port=8080
+        - com.df.httpsOnly=true
         - com.df.redirectWhenHttpProto=true
         - com.df.xForwardedProto=true
     volumes:
