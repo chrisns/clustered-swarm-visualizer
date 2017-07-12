@@ -6,7 +6,7 @@ services:
       - proxy
     deploy:
       mode: replicated
-      replicas: 1
+      replicas: 2
       labels:
         - com.df.notify=true
         - com.df.distribute=true
