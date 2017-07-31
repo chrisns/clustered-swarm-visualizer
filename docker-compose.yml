@@ -27,7 +27,6 @@ services:
         - com.df.servicePath=/
         - com.df.port=8080
         - com.df.httpsOnly=true
-        - com.df.redirectWhenHttpProto=true
         - com.df.xForwardedProto=true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
