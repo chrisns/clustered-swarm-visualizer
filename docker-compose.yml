@@ -9,7 +9,6 @@ services:
       retries: 3
     networks:
       - proxy
-    read_only: true
     deploy:
       mode: replicated
       replicas: 2
