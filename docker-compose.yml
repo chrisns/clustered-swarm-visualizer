@@ -7,6 +7,9 @@ services:
     deploy:
       mode: replicated
       replicas: 2
+      placement:
+        constraints:
+          - node.role == manager
       resources:
         limits:
           cpus: '0.50'
